@@ -22,5 +22,4 @@ function* rootSaga() {
   yield fork(cartItemUpdateQtySaga);
   yield fork(orderSaga);
 }
-
 export default rootSaga;
